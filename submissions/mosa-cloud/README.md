@@ -4,7 +4,7 @@
 
 ## Project
 
-Épicentre
+Épicentre / La Suite Launchpad
 
 ## Project Description
 
@@ -15,6 +15,7 @@
 - Summarize recent changes your coworkers have made to your files
 - Summarize the most important conversations from your Matrix chats
 - Extract action points from your meetings
+- Show Matrix discussions in which you were mentioned
 
 ## Contributors
 
@@ -37,7 +38,10 @@
 - Customizable and personalized hub as entrypoint into the suite
 - Summarize important missed conversations from Matrix
 - Summarize updates other people made on your Docs documents
+- Summarize meeting, including visual content
 - Extract action points from Meet summaries
+- Keep an event stream of all important database events to base other actions on
+- List recently created Docs and Drive files
 
 ## Challenges Overcome
 
@@ -45,7 +49,7 @@
 - Prioritizing information for the end-user
 - Finding non-intrusive solution that can hook into any number of other apps in the suite
 - Efficiently fetching valuable data
-- Docker Hub did not work :(
+- Docker Hub did not work and poor wifi :(
 
 ## Impact
 
@@ -58,8 +62,9 @@
 - Adding more widgets to add cross-application functionality
   - Suggest and automate actions such as create email based on Meet summary or plan meetings based on discussions in Matrix
   - Help prioritize work
-- Improving the prioritization of notifications shown in the Épicentre
+- Improving the prioritization of items shown in the Épicentre based on the current user and their work context
 - Implement the La Suite MCP endpoints
+- Automate the access token generation for Matrix based using OIDC impersonation
 - Full-text search, since not every action should be governed by LLMs
 - Replace remote LLMs with Ollama (with GPU)
 - Allowing third-parties to add arbitrary widgets for their users (would need to look into safe remote code execution)
