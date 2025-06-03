@@ -4,9 +4,11 @@
 
 ## Project
 
-Épicentre / La Suite Launchpad
+La Suite Launchpad
 
 ## Project Description
+
+A personal dashboard that centralises user's activity across La Suite apps
 
 <b>Épicentre</b> is your starting point in the La Suite ecosystem. It combines data from multiple apps and summarizes it into widgets with bite-sized, actionable information. Configure your dashboard simply by telling Épicentre which information is important to you.
 
