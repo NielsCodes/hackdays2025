@@ -1,5 +1,7 @@
 # 🏆 Final Submission for mosa.cloud
 
+<img src="https://raw.githubusercontent.com/NielsCodes/hackdays2025/refs/heads/main/submissions/mosa-cloud/assets/mosa-cloud-horizontal.svg" />
+
 ## Project
 
 Épicentre
